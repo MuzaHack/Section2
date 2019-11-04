@@ -1,0 +1,93 @@
+*{
+
+  font-family: sans-serif;
+}
+
+#triangle{
+
+  float: left;
+}
+
+#text{
+
+  font-size: 15px;
+}
+
+#form{
+
+  position: absolute;
+  padding: 100px;
+  background-color: white;
+  z-index: 1;
+  left: 500px;
+}
+
+h2{
+
+  line-height: 0.2;
+}
+
+h3{
+
+  line-height: 0.2;
+}
+
+#input {
+
+  padding: 0px 20px;
+}
+
+#button1 {
+
+  padding: 5px 90px;
+  text-align: center;
+}
+
+#iium {
+
+  float: right;
+}
+
+#rectangle {
+
+  width: 70px;
+  height: 5px;
+  background: rgb(30, 144, 255);
+}
+
+#triangle-topright {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-top: 500px solid white;
+  border-left: 900px solid transparent;
+  z-index: 1;
+}
+
+
+#triangle-bottomright {
+
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-bottom: 500px solid white;
+  border-left: 900px solid transparent;
+  z-index: 1;
+}
+
+#privacy {
+
+position: absolute;
+top: 550px;
+left: 1200px;
+text-align: right;
+font-size: 10px;
+
+}
+
+
+#disclaimer {
+
+  color: blue;
+
+}
